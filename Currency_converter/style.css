@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(255, 204, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.container {
+    background-color: rgb(1, 1, 19);
+    color: rgb(255, 204, 143);
+    padding: 2rem;
+    border-radius: 1.2rem;
+    display: grid;
+    justify-items: center;
+    row-gap: 1rem;
+    min-height: 40vh;
+}
+
+.currency,
+.value,
+.convert {
+    padding: .4rem;
+    border-radius: .7rem;
+    border: none;
+}
+
+.currency:focus,
+.value:focus,
+.convert:focus {
+    outline: 0;
+}
+
+.convert {
+    background-color: rgb(224, 191, 150);
+    width: 45%;
+    font-size: 1rem;
+}
+
+.currency {
+    background-color: rgb(236, 112, 40);
+    width: 98%;
+}
+
+.value {
+    background-color: rgba(199, 199, 235, 0.986);
+    margin-top: .2rem;
+    width: 98%;
+}
+
+.convert:hover {
+    cursor: pointer;
+}
